@@ -3,7 +3,8 @@
 •	spring.datasource.username=root  
 •	spring.datasource.password=Abcd@1234  
 •	spring.jpa.hibernate.ddl-auto=update  
-•	spring.jpa.show-sql=true  
+•	spring.jpa.show-sql=true.
+
 # Perform the following task related to Spring Boot application. (16 Marks)
 1.	Create a Spring Boot rest controller named PatientController in the controllers package.
 2.	Create an entinty class Patient with patientId, name, address fields in the entities package.
