@@ -4,7 +4,6 @@ import com.example.demo.model.PatientRecord;
 import com.example.demo.repositories.PatientRecordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -49,6 +48,4 @@ public class PatientRecordController {
         patientRecordRepository.save(patientObj);
         return patientRecordRepository.findAll();
     }
-
-
 }
