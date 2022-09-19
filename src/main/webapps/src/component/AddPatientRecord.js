@@ -7,8 +7,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
 const AddPatientRecord = () => {
-  
-  const { patientId } = useParams(); 
+const { patientId } = useParams(); 
   
   const [id, setId] = useState();
   const [name, setName] = useState();
