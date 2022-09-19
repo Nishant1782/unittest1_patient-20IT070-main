@@ -31,4 +31,4 @@ git add .
 ## Command to commit to new branch
 git commit -m "Completed the task"
 ## Command to push the project to new branch
-git push --set-upstream origin {yourId}
+git push --set-upstream origin {20IT070}
