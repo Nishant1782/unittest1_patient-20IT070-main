@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Link } from "react-router-dom";
 const PatientList = () => {
 
-  const [students, setStudents] = useState(null);
+const [students, setStudents] = useState(null);
 
   useEffect(() => {
     axios.get("http://localhost:8080/listPatientRecord").then((response) => {
