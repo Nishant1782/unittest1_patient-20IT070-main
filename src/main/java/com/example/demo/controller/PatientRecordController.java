@@ -10,6 +10,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
 public class PatientRecordController {
 
+    
     @Autowired
     PatientRecordRepository patientRecordRepository;
 
