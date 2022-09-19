@@ -20,5 +20,4 @@ const Navigationbar = () => {
     </div>
   )
 }
-
 export default Navigationbar
